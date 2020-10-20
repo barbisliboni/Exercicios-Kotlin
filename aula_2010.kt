@@ -86,3 +86,80 @@ fun multi(a : Int, b : Int) : Int{ //o terceiro int é o tipo de retorno, no cas
     val ab = a * b;
     return ab; 
 }
+
+
+
+
+//operadores relacionais 
+    //sempre retornam true or false entre dois elementos
+    var idadeBarbara = 18;
+    var idadeThiago = 40;
+    var idadeArthur = 18;
+    
+    /*println(idadeBarbara == idadeThiago); false
+      println(idadeBarbara == idadeArthur); true
+    
+      println("Bárbara" == "Bárbara"); true
+      println("Bárbara" == "bárbara"); false
+    */
+    
+    
+    // operador de diferente: !=
+    //vai retornar se dois elementos são diferentes ou não
+    
+    /*println(idadeBarbara != idadeThiago); true
+      println(idadeBarbara != idadeArthur); false
+    
+      println("Bárbara" != "Bárbara"); false
+      println("Bárbara" != "bárbara"); true
+    */
+    
+    
+    
+    //maior que: >
+    //vai comparar se um elemento é maior que o outro
+    
+    /*println(idadeBarbara > idadeThiago); false
+      println(idadeBarbara > idadeArthur); false
+    
+      println("Bárbara" > "Bárbara"); false
+      println("Bárbara" > "bárbara"); false
+    */
+    
+    
+    
+    
+    //menor que: >
+    //vai comparar se um elemento é menor que o outro
+    
+    /*println(idadeBarbara < idadeThiago); true
+      println(idadeBarbara < idadeArthur); false
+    
+      println("Bárbara" < "Bárbara"); false
+      println("Bárbara" < "bárbara"); true   bárbara minúsculo deu true pois o programa sempre considera minúsucla maior que maiúscula
+    */
+    
+    
+    
+    //maior ou igual
+    //compara se um elemento é maior ou igual a outro
+    
+    /*println(idadeBarbara >= idadeThiago); false
+      println(idadeBarbara >= idadeArthur); true
+    
+      println("Bárbara" >= "Bárbara"); true
+      println("Bárbara" >= "bárbara"); false
+    */
+    
+    
+    
+    //menor ou igual
+    //compara se um elemento é menor ou igual a outro
+    
+    /*println(idadeBarbara <= idadeThiago); true
+      println(idadeBarbara <= idadeArthur); true
+    
+      println("Bárbara" <= "Bárbara"); true
+      println("Bárbara" <= "bárbara"); true
+    */
+    
