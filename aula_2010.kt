@@ -251,3 +251,62 @@ fun multi(a : Int, b : Int) : Int{ //o terceiro int é o tipo de retorno, no cas
 
     
     
+    //Estruturas de repetição: for
+    //quando queremos repetir um n numero de passos em um n numero de vezes
+    
+    
+    //fazer um programa q imprima os numeros pares, e para os impares apareça a palavra "ímpar"
+    for(n in 0..10){ // 0 1 2 3 4 5 6 7 8 9 10
+        if(n%2 == 0){
+            println(n)
+        }else{
+            println("Ímpar")
+        }   
+    }
+    
+    
+    
+    
+    //Listas
+    //Definindo uma lista 
+    var profs = arrayListOf("Thiago", "Bárbara", "Arthur") //cria uma lista de itens. Os itens da lista SEMPRE tem que ser do mesmo tipo
+    
+    println(profs); //imprimindo uma lista
+    
+    
+    //Acessando um único item da lista 
+    println(profs[0]); //colocar a posição do item a ser acessado
+    
+    
+    
+    
+    //Adicionando itens na lista
+    profs.add("Lusca");
+    println(profs)
+    
+    
+    //Removendo itens da lista
+    profs.removeAt(2);
+    println(profs);
+    
+    
+    
+    //Pegando um item aleatório da lista
+    println(profs.random());
+    
+    
+    
+    
+    //Iterar itens da lista com o comando for
+    for(nome in profs){ //quem vem antes do in é "variável" dentro do for, no caso o nome
+        println("Professor $nome");         
+    }
+    
+    
+    
+    
+    //visualizar o tamanho da lista
+    println(profs.size);
+    
+}
+    
