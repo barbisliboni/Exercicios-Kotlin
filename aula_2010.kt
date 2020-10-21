@@ -173,28 +173,28 @@ fun multi(a : Int, b : Int) : Int{ //o terceiro int é o tipo de retorno, no cas
     
     //Operador AND: &&
     //recebe dois booleanos e retorna apenas um, e retorna true caso os dois valores recebidos sejam iguais
-    //println(true && true); //true
-    //println(true && false); //false
-    //println(false && true); //false
-    //println(false && false); //false
+    println(true && true); //true
+    println(true && false); //false
+    println(false && true); //false
+    println(false && false); //false
     
     
     
     
     //Operador OR: ||
     //representa a lógica OU
-    //println(true || true); //true
-    //println(true || false); //true
-    //println(false || true); //true
-    //println(false || false); //false
+    println(true || true); //true
+    println(true || false); //true
+    println(false || true); //true
+    println(false || false); //false
     
     
     
     
     //Operador NOT: !
     //aceita um único valor de entrada e gera uma saída, ele inverte as ordens (ex de true vira false e vice versa)
-    //println(!true);
-    //println(!false);
+    println(!true);
+    println(!false);
     
     
     
@@ -210,7 +210,7 @@ fun multi(a : Int, b : Int) : Int{ //o terceiro int é o tipo de retorno, no cas
     val idade = idadeA; //int
     val cnh = cnhA; //boolean
     
-    //println(idade >= 18 && cnh);
+    println(idade >= 18 && cnh);
     
     
     
@@ -229,7 +229,7 @@ fun multi(a : Int, b : Int) : Int{ //o terceiro int é o tipo de retorno, no cas
     
     val clima = "nublado";
     
-    /*if(clima == "chuva"){
+    if(clima == "chuva"){
         println("Pegar um guarda-chuva!")
     }else if(clima == "sol"){
         println("Vamos sair!")
@@ -238,7 +238,7 @@ fun multi(a : Int, b : Int) : Int{ //o terceiro int é o tipo de retorno, no cas
     }else{
         println("Tanto faz!")
     }
-    */
+    
     
     
     
