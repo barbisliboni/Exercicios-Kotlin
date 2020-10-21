@@ -161,5 +161,93 @@ fun multi(a : Int, b : Int) : Int{ //o terceiro int é o tipo de retorno, no cas
     
       println("Bárbara" <= "Bárbara"); //true
       println("Bárbara" <= "bárbara"); //true
+
+
+
+
+
+    
+    //Operadores lógicos
+    //existem apenas três operadores lógicos: &&, || e !
+    
+    
+    //Operador AND: &&
+    //recebe dois booleanos e retorna apenas um, e retorna true caso os dois valores recebidos sejam iguais
+    //println(true && true); //true
+    //println(true && false); //false
+    //println(false && true); //false
+    //println(false && false); //false
+    
+    
+    
+    
+    //Operador OR: ||
+    //representa a lógica OU
+    //println(true || true); //true
+    //println(true || false); //true
+    //println(false || true); //true
+    //println(false || false); //false
+    
+    
+    
+    
+    //Operador NOT: !
+    //aceita um único valor de entrada e gera uma saída, ele inverte as ordens (ex de true vira false e vice versa)
+    //println(!true);
+    //println(!false);
+    
+    
+    
+    val idadeA= 35;
+    val cnhA = true; 
+    
+    val idadeB = 18;
+    val cnhB = false; 
+    
+    val idadeC = 17;
+    val cnhC = true;
+    
+    val idade = idadeA; //int
+    val cnh = cnhA; //boolean
+    
+    //println(idade >= 18 && cnh);
+    
+    
+    
+    
+    //Estrutura condicional: If/else
+    /*if(condição){
+      }else{
+      }
+    */
+    
+	
+    
+    
+    
+    //if/else if/else
+    
+    val clima = "nublado";
+    
+    /*if(clima == "chuva"){
+        println("Pegar um guarda-chuva!")
+    }else if(clima == "sol"){
+        println("Vamos sair!")
+    }else if(clima == "nublado"){
+        println("Pegar uma blusa de frio.")
+    }else{
+        println("Tanto faz!")
+    }
+    */
+    
+    
+    
+    if(idade >= 18 && cnh){
+        println("Você pode comprar um carro! :)")
+    }else{
+        println("Você não pode comprar um carro! :(")
+    }
+    
+
     
     
