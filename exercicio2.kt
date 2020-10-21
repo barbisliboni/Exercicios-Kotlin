@@ -85,15 +85,26 @@ for (n in 0..10 ){
 }
 
 //ex 7
-var vogal = arrayListOf("a", "e", "i", "o", "u");
-var palavra = "Amigo";
+	var palavra = "Amigo";
+	var contar = 0;
     
-for(vogal in palavra.length){
-    if(vogal == palavra)
-        println()
+	for(vogal in 0..palavra.length-1){
+    	if(palavra.get(vogal) == 'a' || palavra.get(vogal) == 'A'){
+        	contar++;
+    	}else if(palavra.get(vogal) == 'e' || palavra.get(vogal) == 'E'){
+        	contar++
+    	}else if(palavra.get(vogal) == 'i' || palavra.get(vogal) == 'I'){
+        	contar++
+    	}else if(palavra.get(vogal) == 'o' || palavra.get(vogal) == 'O'){
+        	contar++
+    	}else if(palavra.get(vogal) == 'u' || palavra.get(vogal) == 'U'){
+        	contar++
+    
+    	}
+    
+	}
+    
+println(contar)
     
 }
-
-
-    }
     
